@@ -1,12 +1,13 @@
-import { StrictMode } from "react";
+import React from 'react';
 import ReactDOM from "react-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Bank } from "./Bank";
+import Bank from './Bank.jsx';
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <StrictMode>
+  <React.StrictMode>
     <Bank />
-  </StrictMode>,
+  </React.StrictMode>,
   rootElement
 );
