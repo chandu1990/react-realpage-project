@@ -1,5 +1,5 @@
 # IMS Engineering recruiting
 
-cd ims-bank/javascript
-npm install
-npm start
+> cd ims-bank/javascript
+> npm install
+> npm start
